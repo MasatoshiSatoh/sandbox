@@ -35,5 +35,5 @@ jobs:
         
       # run tests!
       # - run: phpunit
-      - run: ./vendor/bin/phpstan analyse -l 7 src/*.php
+      - run: ./vendor/bin/phpstan analyse -l 0 src/*.php
       - run: ./vendor/bin/phpunit test/
