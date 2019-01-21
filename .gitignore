@@ -1,1 +1,3 @@
 .circleci/config.yml_org
+.vagrant/
+vendor/
